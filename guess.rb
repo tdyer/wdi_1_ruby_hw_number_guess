@@ -1,13 +1,19 @@
-puts 'Welcome to Number Guesser Pro 2003'
+puts 'Welcome to Number Guesser Pro 2003 Service Pack 1'
 puts
+puts 'Enter the maximum number to guess:'
 
-max_number = 10
-secret_number = rand(max_number) + 1
+max_number = gets.chomp.to_i
+until max_number >= 10
+  puts 'Sorry, the maximum must be 10 or higher. Try again:'
+  max_number = gets.chomp.to_i
+end
 
+puts
 puts "I'm thinking of a number between 1 and #{max_number}..."
 
+secret_number = rand(max_number) + 1
+guesses_left = Math.log(max_number * 3).round
 guess = 0
-guesses_left = 3
 
 while guess != secret_number && guesses_left > 0
   puts
