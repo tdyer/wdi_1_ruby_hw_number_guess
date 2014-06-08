@@ -21,6 +21,10 @@ while guess != secret_number && guesses_left > 0
   puts "(#{guesses_left} guesses left)"
 
   guess = gets.chomp.to_i
+  until guess >= 1 && guess <= max_number
+    puts "The number is between 1 and #{max_number}! Try again:"
+    guess = gets.chomp.to_i
+  end
   guesses_left -= 1
 end
 
