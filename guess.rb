@@ -5,12 +5,17 @@ max_number = 10
 secret_number = rand(max_number) + 1
 
 puts "I'm thinking of a number between 1 and #{max_number}..."
-puts 'Guess the number:'
 
-guess = gets.chomp.to_i
+guess = 0
 
-if guess == secret_number
-  puts 'You got it! Congratulations!'
-else
-  puts "Nice try, but the number was #{secret_number}."
+while guess != secret_number
+  case
+  when guess == 0 then puts 'Guess the number:'
+  when guess < secret_number then puts "It's higher than #{guess}, guess again:"
+  when guess > secret_number then puts "It's lower than #{guess}, guess again:"
+  end
+
+  guess = gets.chomp.to_i
 end
+
+puts 'You got it! Congratulations!'
