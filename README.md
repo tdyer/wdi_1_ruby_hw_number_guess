@@ -30,7 +30,7 @@ This section clarifies the outline above into a list of criteria that you can ch
 * Repository has several logical commits with descriptive messages
 * Code uses correct indentation/style and descriptive variable names
 
-### Bonuses
+### Extra Challenges
 
 * Why always 10? Enhance your program to allow the user to specify a maximum number before they start guessing. The number of incorrect guesses allowed should be scaled appropriately (the exact logic is up to you) &ndash; giving someone only three tries to guess a number between 1 and 500 isn't very fair! Make sure you tell the user how many guesses they have left at each prompt.
 * Play it again! When the game ends, ask the user if they'd like to play again. Answering "yes" should generate a new random number and start the game again from the beginning.
