@@ -18,7 +18,7 @@ These are mostly the same steps you'll follow for every assignment, so we won't 
 
 ## Specifications
 
-This section clarifies the outline above into a list of criteria that you can check your work against (hint: this could give you some ideas on breaking the problem into discrete steps). If your program fulfills all the specs, you're done! Review your code for refactoring opportunities, and check the Bonuses below for additional challenges.
+This section clarifies the outline above into a list of criteria that you can check your work against (hint: this could give you some ideas on breaking the problem into discrete steps). If your program fulfills all the specs, you're done! Review your code for refactoring opportunities, and check the section below for additional challenges.
 
 * Program generates a random number and prompts the user to guess it
 * Program tells the user whether a guess was correct or not
