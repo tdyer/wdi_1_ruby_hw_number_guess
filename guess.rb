@@ -16,13 +16,13 @@ while continue_playing
 
   secret_number = rand(max_number) + 1
   guesses_left = Math.log(max_number * 3).round
-  guess = 0
+  guess = nil
 
   while guess != secret_number && guesses_left > 0
     puts
 
     case
-    when guess == 0 then puts 'Guess the number:'
+    when guess == nil then puts 'Guess the number:'
     when guess < secret_number then puts "It's higher than #{guess}, guess again:"
     when guess > secret_number then puts "It's lower than #{guess}, guess again:"
     end
