@@ -12,9 +12,8 @@ These are mostly the same steps you'll follow for every assignment, so we won't 
 
 1. Fork this repo.
 2. `git clone` your fork into your GA code directory.
-3. `cd` into the newly-cloned directory.
-4. Create a Ruby file &ndash; call it `guess.rb` or whatever you like.
-5. In this file, write a program according to the outline above and specifications below. Try to break the problem down into small isolated steps: Each time you complete a step, make a Git commit with a descriptive message. Your program should always be *working* in each commit, though it might not be completely *done*.
+3. `cd` into the newly-cloned `wdi_1_ruby_hw_number_guess` directory.
+5. In the `guess.rb` file, write a program according to the outline above and specifications below. Try to break the problem down into small isolated steps: Each time you complete a step, make a Git commit with a descriptive message. Your program should always be *working* in each commit, though it might not be completely *done*.
 6. When finished, `git push` your local changes back up to your fork.
 7. Submit a **Pull Request** to the original repo. In the description field, tell us about any problems you encountered or known issues with your program (e.g. does it not fulfill all of the specs? which ones?).
 
