@@ -1,3 +1,5 @@
+![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
+
 # Guess the Number
 
 *"I'm thinking of a number between 1 and 10..."*
