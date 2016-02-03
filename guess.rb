@@ -19,7 +19,6 @@ while guess < number
     while guess > max_number
       puts "You guessed outside the range. Enter a number from 1 to 10: "
       guess = gets.chomp.to_i
-      tries += 1
     end
   end
   unless tries < max_tries
