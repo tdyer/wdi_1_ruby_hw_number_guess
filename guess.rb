@@ -2,7 +2,7 @@
 number = rand(1...10)
 guess = 9
 tries = 1
-max_tries = 4
+max_tries = 3
 
 while guess != number
   puts "Enter a number from 1 to 10: "
