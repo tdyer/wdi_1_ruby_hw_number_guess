@@ -1,5 +1,5 @@
 # Your code goes here
-number = 1 + rand(9)
+number = rand(1...10)
 guess = 9
 tries = 1
 max_tries = 4
