@@ -21,3 +21,5 @@ while guess > number
 end
 end
 end
+
+puts "You guessed right!!" if guess == number
