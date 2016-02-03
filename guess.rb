@@ -14,7 +14,7 @@ while guess > number
   puts "You guessed too high! Try again: "
   guess = gets.chomp.to_i
   unless tries < max_tries
-    puts "Sorry, you've exceeded the number of tries"
+    puts "Sorry, you've exceeded the number of tries. The correct number is #{number}"
     break
   end
   tries += 1
