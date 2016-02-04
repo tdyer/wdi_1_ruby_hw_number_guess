@@ -32,6 +32,8 @@ while play
    randomNumber = 1 + rand(highNum)
 
    #Based on the difficulty of the guess, calculate the number of guesses
+   #Log2x is a good formula
+   # 1-4 = 2 guesses, 1-8 = 3, 1-16 = 4, 1-32 = 5, 1-64 = 6..... 1-1024 = 10)
    totalGuesses = Math.log2(highNum).round
 
    #Keep track of the user attempts
