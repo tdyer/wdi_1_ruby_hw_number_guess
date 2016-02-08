@@ -13,6 +13,7 @@ firstguess = gets.chomp!.to_i
 
 if firstguess == randomnumber
   puts "That's right! Congratualtions you got it right on your first try! Goodbye.\n\n"
+  abort("")
 elsif firstguess > randomnumber
   puts "I'm sorry! That is wrong. Your guess was too high. Please take your second guess.\n\n"
   secondguess = gets.chomp!.to_i
@@ -24,6 +25,7 @@ end
 
 if secondguess == randomnumber
   puts "That's right! Congratualtions you got it right on your second try! Goodbye.\n\n"
+  abort("")
 elsif secondguess > randomnumber
   puts "I'm sorry! That is wrong. Your guess was too high. Please take your third guess.\n\n"
   thirdguess = gets.chomp!.to_i
@@ -35,6 +37,7 @@ end
 
 if thirdguess == randomnumber
   puts "That's right! Congratualtions you got it right on your last try! Goodbye.\n\n"
+  abort("")
 else
-  puts "I'm sorrry! That is wrong. You lose. The correct number was " + randomnumber.to_s + ". Goodbye.\n\n"
+  puts "I'm sorry! That is wrong. You lose. The correct number was " + randomnumber.to_s + ". Goodbye.\n\n"
 end
