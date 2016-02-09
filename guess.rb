@@ -1,7 +1,6 @@
 # Your code goes here
 number = rand(1...10)
 tries = 0
-#max_tries = 3
 
 while tries < 3
   puts 'Enter a number from 1 to 10:'
