@@ -1,14 +1,13 @@
 # Your code goes here
-number = rand(1...10) + 1
+number = rand(1...10)
 #guess = 11
-tries = 1
-max_tries = 3
-max_number = 11
+tries = 0
+#max_tries = 3
+#max_number = 11
 
 while tries < 3
     puts 'Enter a number from 1 to 10:'
-    guess = gets.chomp
-    guess = guess.to_i
+    guess = gets.chomp!.to_i
     tries = tries + 1
 
     if guess < number
@@ -19,6 +18,8 @@ while tries < 3
         puts "Great! You guessed my number."
         break
     end
+    unless tries = 3
+      puts "You ran out of guesses. The number is #{number}"
 end
-
-puts "You guessed right!!" if guess == number
+end
+#puts "You guessed right!!" if guess == number
